@@ -1,0 +1,35 @@
+body {
+    background: rgb(255, 173, 65);
+}
+
+#todo-container {
+
+    max-width: 40vw; 
+    padding: 20px 10px;
+    color: white;
+}
+
+#todo-tasks {
+
+    color: black;
+    width: 100%; /* Remarquez la largeur de 100% pour s'étirer en fonction du conteneur parent */
+}
+
+#todo {
+    background-color: white;
+    max-width: 40vw; 
+    margin: 0 auto; 
+    padding: 10px;
+}
+
+input[type=text] {
+    height: 30px;
+  }
+
+#button {
+    height: 36px;
+    width: 36px;
+    margin-left: 1em;
+    background-color: aqua;
+  }
+

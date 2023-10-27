@@ -1,0 +1,35 @@
+body{
+    background-color: lightcoral
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+    background-color: white;
+    max-width: 25vw; 
+  }
+  
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover; 
+  }
+  
+  .profile-name {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  .profile-description {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .profile-poste {
+    font-size: 18px;
+    margin: 10px 0;
+    font-weight: bold;
+  }
